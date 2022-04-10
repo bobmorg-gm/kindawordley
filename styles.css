@@ -206,3 +206,21 @@ body {
 .alert.hide {
   opacity: 0;
 }
+
+@media (max-width: 390px) {
+  body {
+    min-height: 840px;
+    margin: 0;
+    padding: 1em;
+    font-size: .85rem;
+  }
+  .alert-container {
+    top: 7vh;
+  }
+  .guess-grid {
+    margin-bottom: .1em;
+  }
+  .small-lift {
+    height: 2vh;
+  }
+}

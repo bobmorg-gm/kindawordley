@@ -15377,7 +15377,7 @@ function submitGuess() {
   }, "")
 
   if (!dictionary.includes(guess)) {
-    showAlert("Not in word list")
+    showAlert("Not a valid word")
     shakeTiles(activeTiles)
     return
   }
